@@ -7,8 +7,8 @@ html, body {
   width: 100%;
 }
 
-@import "partials/_navbar";
-@import "partials/_lp-section-1";
+@import "common/_navbar";
+@import "welcome/_lp-section-1";
 
 .lp-section-2 {
   padding: 80px 0;
@@ -19,7 +19,7 @@ html, body {
 }
 
 #fixed {
-  @include background-img($url-background-img-section-2);
+  @include background-img($img-url-background-fixed);
   display: table;
   height: 60%;
   position: relative;
