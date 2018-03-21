@@ -13,5 +13,6 @@
   color: $primary-color-text;
   &:hover, &.active {
     color: $primary-color-light;
+    // color: $primary-color-dark;
   }
 }
